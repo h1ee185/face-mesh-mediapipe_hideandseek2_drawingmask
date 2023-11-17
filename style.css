@@ -1,0 +1,13 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+canvas, video {
+  display: block;
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  
+}
+
+canvas { z-index: 1;}
+video { z-index: 0; transform: scaleX(-1); }
